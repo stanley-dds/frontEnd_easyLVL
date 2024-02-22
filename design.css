@@ -7,6 +7,11 @@ body {
     margin: 0;
     flex-direction: column;
 }
+img
+{
+	max-width: 100%;
+	height: auto;
+}
 
 .navigation {
     display: flex;
