@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="design.css">
     <title>LIA</title>
 </head>
+
+
 <body>
 
 <nav class="navigation">
@@ -16,6 +18,15 @@
 
 <div class="page active" id="page1">
     <h1>First page</h1>
+	<button onclick="openImage()">Open image</button>
+	
+		<div id="imageID" 
+	style="display:none;">
+		<img id="myImage"
+		src="image1.jpg"
+		alt="picture location">
+		</div>
+		
     <p>Items to sell: TBD</p>
     <button onclick="onPageChange(2)" id="btnPage1">Go to the 2nd page</button>
 </div>
