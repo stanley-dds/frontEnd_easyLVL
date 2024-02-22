@@ -31,5 +31,5 @@ function setButtonStyle(buttonNumber, isActive = false)
 function openImage() 
 {
 	var imgg = document.getElementById("imageID");
-	imageID.style.display = "block";
+	imgg.style.display = "block";
 }
