@@ -7,10 +7,13 @@ body {
     margin: 0;
     flex-direction: column;
 }
-img
+@media only screen and (max-width:600px)
 {
-	max-width: 100%;
-	height: auto;
+	img
+	{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .navigation {
