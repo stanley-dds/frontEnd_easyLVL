@@ -1,1 +1,37 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>LIA</title>
+</head>
+<body>
+
+<nav class="navigation">
+    <button onclick="onPageChange(1)" id="btnPage1">Page 1</button>
+    <button onclick="onPageChange(2)" id="btnPage2">Page 2</button>
+    <button onclick="onPageChange(3)" id="btnPage3">Page 3</button>
+</nav>
+
+<div class="page active" id="page1">
+    <h1>First page</h1>
+    <p>Items to sell: TBD</p>
+    <button onclick="onPageChange(2)" id="btnPage1">Go to the 2nd page</button>
+</div>
+
+<div class="page hidden" id="page2">
+    <h1>Second page</h1>
+    <p>Items to buy:</p>
+    <button onclick="onPageChange(3)" id="btnPage2">Go to the 3rd page</button>
+</div>
+
+<div class="page hidden" id="page3">
+    <h1>Third page</h1>
+    <p>Here you can chat with other users</p>
+    <button onclick="onPageChange(1)" id="btnPage3">Go back to the 1st page</button>
+</div>
+
+<script src="logics.js"></script>
+</body>
+</html>
