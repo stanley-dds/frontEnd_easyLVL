@@ -52,7 +52,7 @@ nav ul li a:hover
 	background-color: #555;
 }
 
-/*styles for mobile*/
+/*styles for mobile
 @media (max-width: 768px)
 {
 	nav ul li
@@ -61,3 +61,4 @@ nav ul li a:hover
 		margin-bottom: 5px;
 	}
 }
+*/
