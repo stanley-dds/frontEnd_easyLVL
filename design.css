@@ -51,3 +51,13 @@ nav ul li a:hover
 {
 	background-color: #555;
 }
+
+//styles for mobile
+@media (max-width: 768px)
+{
+	nav ul li
+	{
+		display: block;
+		margin-bottom: 5px;
+	}
+}
